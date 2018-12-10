@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="app/css/demo.css"/>
     <link rel="stylesheet" href="app/fonts/stylesheet.css"/>
     <link rel="stylesheet" href="app/css/style.css"/>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="app/js/jquerynuevo.js"></script>
     <script src="app/js/jquery.connections.js"></script>
     <script src="app/js/fancybox.js"></script>
     <script src="app/js/bootstrap.js"></script>
