@@ -934,7 +934,7 @@ $(document).ready(function(){
 });
 $(".estilo-button").click(function () { 
   var id = $(this).data('id');
-  alert(id);
+  //alert(id);
 		$('.ocultar'+id).toggle(); 
 }); 
 </script>
