@@ -1,0 +1,182 @@
+%!Adobe-FontList 1.19
+%Locale:0xc0a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChevinPro-Bold
+FamilyName:Chevin Pro
+StyleName:Bold
+FullName:Chevin Pro Bold
+MenuName:Chevin Pro Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\ChevinPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145108
+FileModTime:1330681966
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chevin Pro Bold
+NameArray:0,Win,1,Chevin Pro Bold
+NameArray:0,Win,16,Chevin Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChevinPro-DemiBold
+FamilyName:Chevin Pro
+StyleName:DemiBold
+FullName:Chevin Pro DemiBold
+MenuName:Chevin Pro DemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\ChevinPro-DemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:144244
+FileModTime:1330681966
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chevin Pro DemiBold
+NameArray:0,Win,1,Chevin Pro DemiBold
+NameArray:0,Win,16,Chevin Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChevinPro-Light
+FamilyName:Chevin Pro
+StyleName:Light
+FullName:Chevin Pro Light
+MenuName:Chevin Pro Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\ChevinPro-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:143744
+FileModTime:1330681966
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chevin Pro Light
+NameArray:0,Win,1,Chevin Pro Light
+NameArray:0,Win,16,Chevin Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChevinPro-Medium
+FamilyName:Chevin Pro
+StyleName:Medium
+FullName:Chevin Pro Medium
+MenuName:Chevin Pro Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\ChevinPro-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:143744
+FileModTime:1330681966
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chevin Pro Medium
+NameArray:0,Win,1,Chevin Pro Medium
+NameArray:0,Win,16,Chevin Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChevinPro-Thin
+FamilyName:Chevin Pro
+StyleName:Thin
+FullName:Chevin Pro Thin
+MenuName:Chevin Pro Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\ChevinPro-Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:143920
+FileModTime:1330681968
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Chevin Pro Thin
+NameArray:0,Win,1,Chevin Pro Thin
+NameArray:0,Win,16,Chevin Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Comfortaa-Bold
+FamilyName:Comfortaa
+StyleName:Bold
+FullName:Comfortaa Bold
+MenuName:Comfortaa
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\Comfortaa-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:134916
+FileModTime:1312948800
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Comfortaa Bold
+NameArray:0,Win,1,Comfortaa
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+FullName:Myriad Pro
+MenuName:Myriad Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Renzo\Desktop\Lindey\ARTE_FINAL\Font\MyriadPro-Regular_0.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:101732
+FileModTime:1329326120
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
