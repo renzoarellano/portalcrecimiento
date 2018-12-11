@@ -707,7 +707,7 @@ $(function(){
   $('.ocultar69').css('display','none');
 
   
-  $(document).ready(function() {
+  $(function() {
 
     //Experiencias Rojo
     $('#experiencia0rojo').connections({to:'#experiencia1rojo','class':'first', tag: 'inner', css: { borderWidth: 1.5,color: '#d22136'}});
