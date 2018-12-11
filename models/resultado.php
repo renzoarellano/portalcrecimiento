@@ -402,27 +402,27 @@ $arrayConocimientosFinal = array();
 
        //Rojos
        if($arrayConocimientosFinal[$h] == 1){
-        $rojoConocimiento1 = '<span class="circulo-numred"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento1 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento1 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 2){
-        $rojoConocimiento2 = '<span class="circulo-numred"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento2 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento2 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 3){
-        $rojoConocimiento3 = '<span class="circulo-numred"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento3 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento3 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 4){
-        $rojoConocimiento4 = '<span class="circulo-numred"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento4 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento4 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 5){
-        $rojoConocimiento5 = '<span class="circulo-numred"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento5 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento5 = ' ';
       }
@@ -431,27 +431,27 @@ $arrayConocimientosFinal = array();
       //Verdes
 
       if($arrayCortoConocimiento[$h] == 1){
-        $verdeConocimiento1 = '<span class="circulo-numverde"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento1 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento1 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 2){
-        $verdeConocimiento2 = '<span class="circulo-numverde"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento2 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento2 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 3){
-        $verdeConocimiento3 = '<span class="circulo-numverde"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento3 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento3 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 4){
-        $verdeConocimiento4 = '<span class="circulo-numverde"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento4 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento4 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 5){
-        $verdeConocimiento5 = '<span class="circulo-numverde"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento5 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento5 = ' ';
       }
@@ -459,27 +459,27 @@ $arrayConocimientosFinal = array();
       //Azules
 
       if($arrayLargoConocimiento[$h] == 1){
-        $azulConocimiento1 = '<span class="circulo-numazul"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento1 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento1 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 2){
-        $azulConocimiento2 = '<span class="circulo-numazul"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento2 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento2 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 3){
-        $azulConocimiento3 = '<span class="circulo-numazul"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento3 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento3 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 4){
-        $azulConocimiento4 = '<span class="circulo-numazul"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento4 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento4 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 5){
-        $azulConocimiento5 = '<span class="circulo-numazul"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento5 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento5 = ' ';
       }
