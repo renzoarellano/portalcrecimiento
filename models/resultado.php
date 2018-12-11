@@ -1407,6 +1407,8 @@ $(".estilo-button").click(function () {
   var id = $(this).data('id');
   //alert(id);
 		$('.ocultar'+id).toggle(); 
+    var connections = $('connection, inner');
+		setInterval(function() { connections.connections('update') }, 10);
 }); 
 </script>
 
