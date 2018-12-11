@@ -241,7 +241,7 @@ $arrayConocimientosFinal = array();
       }
     }
 
-    for($d = 0; $d < 180 ;$d = $d + 1){
+    for($d = 0; $d < 182 ;$d = $d + 1){
       if($arrayPromedioConocimiento2[$d] < $arrayPromedioConocimiento3[$d]){
           array_push($promedioAlternativoConocimiento,$arrayPromedioConocimiento3[$d]);
       }else{
@@ -249,7 +249,7 @@ $arrayConocimientosFinal = array();
       }
     }
 
-    for($e = 0; $e < 180 ;$e = $e + 1){
+    for($e = 0; $e < 182 ;$e = $e + 1){
       if($arrayPromedioConocimiento1[$e] < $promedioAlternativoConocimiento[$e]){
           array_push($arrayConocimientosFinal,$arrayPromedioConocimiento3[$e]+1);
       }else{
