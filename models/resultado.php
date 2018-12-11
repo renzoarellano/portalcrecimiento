@@ -402,27 +402,27 @@ $arrayConocimientosFinal = array();
 
        //Rojos
        if($arrayConocimientosFinal[$h] == 1){
-        $rojoConocimiento1 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento1 = '<span  id="conocimiento'.$h.'rojo" class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento1 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 2){
-        $rojoConocimiento2 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento2 = '<span id="conocimiento'.$h.'rojo" class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento2 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 3){
-        $rojoConocimiento3 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento3 = '<span id="conocimiento'.$h.'rojo" class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento3 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 4){
-        $rojoConocimiento4 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento4 = '<span id="conocimiento'.$h.'rojo" class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento4 = ' ';
       }
       if($arrayConocimientosFinal[$h] == 5){
-        $rojoConocimiento5 = '<span class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
+        $rojoConocimiento5 = '<span id="conocimiento'.$h.'rojo" class="circulo-numrede"> '.$arrayConocimientosFinal[$h].' </span>';
       }else{
         $rojoConocimiento5 = ' ';
       }
@@ -431,27 +431,27 @@ $arrayConocimientosFinal = array();
       //Verdes
 
       if($arrayCortoConocimiento[$h] == 1){
-        $verdeConocimiento1 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento1 = '<span id="conocimiento'.$h.'verde" class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento1 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 2){
-        $verdeConocimiento2 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento2 = '<span id="conocimiento'.$h.'verde" class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento2 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 3){
-        $verdeConocimiento3 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento3 = '<span id="conocimiento'.$h.'verde" class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento3 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 4){
-        $verdeConocimiento4 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento4 = '<span id="conocimiento'.$h.'verde" class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento4 = ' ';
       }
       if($arrayCortoConocimiento[$h] == 5){
-        $verdeConocimiento5 = '<span class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
+        $verdeConocimiento5 = '<span id="conocimiento'.$h.'verde" class="circulo-numverdee"> '.$arrayCortoConocimiento[$h].' </span>';
       }else{
         $verdeConocimiento5 = ' ';
       }
@@ -459,27 +459,27 @@ $arrayConocimientosFinal = array();
       //Azules
 
       if($arrayLargoConocimiento[$h] == 1){
-        $azulConocimiento1 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento1 = '<span id="conocimiento'.$h.'azul" class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento1 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 2){
-        $azulConocimiento2 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento2 = '<span id="conocimiento'.$h.'azul" class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento2 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 3){
-        $azulConocimiento3 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento3 = '<span id="conocimiento'.$h.'azul" class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento3 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 4){
-        $azulConocimiento4 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento4 = '<span id="conocimiento'.$h.'azul" class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento4 = ' ';
       }
       if($arrayLargoConocimiento[$h] == 5){
-        $azulConocimiento5 = '<span class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
+        $azulConocimiento5 = '<span id="conocimiento'.$h.'azul" class="circulo-numazule"> '.$arrayLargoConocimiento[$h].' </span>';
       }else{
         $azulConocimiento5 = ' ';
       }
@@ -919,6 +919,166 @@ $(document).ready(function(){
     $('#experiencia65azul').connections({to:'#experiencia66azul','class':'first', tag: 'inner', css: { borderWidth: 1.5,color: '#068fc4'}});
     $('#experiencia66azul').connections({to:'#experiencia67azul','class':'first', tag: 'inner', css: { borderWidth: 1.5,color: '#068fc4'}});
     $('#experiencia67azul').connections({to:'#experiencia68azul','class':'first', tag: 'inner', css: { borderWidth: 1.5,color: '#068fc4'}});
+
+
+
+    //Conocimiento Rojo
+    //2
+    $('#conocimiento1rojo').connections({to:'#conocimiento2rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento2rojo').connections({to:'#conocimiento3rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento3rojo').connections({to:'#conocimiento5rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento4rojo').connections({to:'#conocimiento5rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //5
+    $('#conocimiento8rojo').connections({to:'#conocimiento9rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento9rojo').connections({to:'#conocimiento10rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //6
+    $('#conocimiento11rojo').connections({to:'#conocimiento12rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento12rojo').connections({to:'#conocimiento13rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento13rojo').connections({to:'#conocimiento14rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento14rojo').connections({to:'#conocimiento15rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento15rojo').connections({to:'#conocimiento16rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //7
+    $('#conocimiento17rojo').connections({to:'#conocimiento18rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //8
+    $('#conocimiento19rojo').connections({to:'#conocimiento20rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento20rojo').connections({to:'#conocimiento21rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento21rojo').connections({to:'#conocimiento22rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //10
+    $('#conocimiento24rojo').connections({to:'#conocimiento25rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento25rojo').connections({to:'#conocimiento26rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento26rojo').connections({to:'#conocimiento27rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento27rojo').connections({to:'#conocimiento28rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento28rojo').connections({to:'#conocimiento29rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento29rojo').connections({to:'#conocimiento30rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento30rojo').connections({to:'#conocimiento31rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento31rojo').connections({to:'#conocimiento32rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //12
+    $('#conocimiento34rojo').connections({to:'#conocimiento35rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento35rojo').connections({to:'#conocimiento36rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //13
+    $('#conocimiento37rojo').connections({to:'#conocimiento38rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento38rojo').connections({to:'#conocimiento39rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //17
+    $('#conocimiento43rojo').connections({to:'#conocimiento44rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //18
+    $('#conocimiento45rojo').connections({to:'#conocimiento46rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento46rojo').connections({to:'#conocimiento47rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento47rojo').connections({to:'#conocimiento48rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento48rojo').connections({to:'#conocimiento49rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento49rojo').connections({to:'#conocimiento50rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento50rojo').connections({to:'#conocimiento51rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento51rojo').connections({to:'#conocimiento52rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento52rojo').connections({to:'#conocimiento53rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento53rojo').connections({to:'#conocimiento54rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento54rojo').connections({to:'#conocimiento55rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento55rojo').connections({to:'#conocimiento56rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento56rojo').connections({to:'#conocimiento57rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento57rojo').connections({to:'#conocimiento58rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //19
+    $('#conocimiento59rojo').connections({to:'#conocimiento60rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento60rojo').connections({to:'#conocimiento61rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //22
+    $('#conocimiento64rojo').connections({to:'#conocimiento65rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento65rojo').connections({to:'#conocimiento66rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //24
+    $('#conocimiento68rojo').connections({to:'#conocimiento69rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento69rojo').connections({to:'#conocimiento70rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento70rojo').connections({to:'#conocimiento71rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento71rojo').connections({to:'#conocimiento72rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento72rojo').connections({to:'#conocimiento73rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento73rojo').connections({to:'#conocimiento74rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //25
+    $('#conocimiento75rojo').connections({to:'#conocimiento76rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento76rojo').connections({to:'#conocimiento77rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento77rojo').connections({to:'#conocimiento78rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //26
+    $('#conocimiento79rojo').connections({to:'#conocimiento80rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //27
+    $('#conocimiento81rojo').connections({to:'#conocimiento82rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento82rojo').connections({to:'#conocimiento83rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento83rojo').connections({to:'#conocimiento84rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //29
+    $('#conocimiento86rojo').connections({to:'#conocimiento87rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //31
+    $('#conocimiento89rojo').connections({to:'#conocimiento90rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //32
+    $('#conocimiento91rojo').connections({to:'#conocimiento92rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento92rojo').connections({to:'#conocimiento93rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //34
+    $('#conocimiento95rojo').connections({to:'#conocimiento96rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento96rojo').connections({to:'#conocimiento97rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento97rojo').connections({to:'#conocimiento98rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //36
+    $('#conocimiento100rojo').connections({to:'#conocimiento101rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento101rojo').connections({to:'#conocimiento102rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento102rojo').connections({to:'#conocimiento103rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //37
+    $('#conocimiento104rojo').connections({to:'#conocimiento105rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //38
+    $('#conocimiento106rojo').connections({to:'#conocimiento107rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //39
+    $('#conocimiento108rojo').connections({to:'#conocimiento109rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento109rojo').connections({to:'#conocimiento110rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //40
+    $('#conocimiento111rojo').connections({to:'#conocimiento112rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //41
+    $('#conocimiento113rojo').connections({to:'#conocimiento114rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //43
+    $('#conocimiento116rojo').connections({to:'#conocimiento117rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento117rojo').connections({to:'#conocimiento118rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento118rojo').connections({to:'#conocimiento119rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento119rojo').connections({to:'#conocimiento120rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //47
+    $('#conocimiento124rojo').connections({to:'#conocimiento125rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //48
+    $('#conocimiento126rojo').connections({to:'#conocimiento127rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento127rojo').connections({to:'#conocimiento128rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento128rojo').connections({to:'#conocimiento129rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //49
+    $('#conocimiento130rojo').connections({to:'#conocimiento131rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //50
+    $('#conocimiento132rojo').connections({to:'#conocimiento133rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //51
+    $('#conocimiento134rojo').connections({to:'#conocimiento135rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //52
+    $('#conocimiento136rojo').connections({to:'#conocimiento137rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento137rojo').connections({to:'#conocimiento138rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento138rojo').connections({to:'#conocimiento139rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento139rojo').connections({to:'#conocimiento140rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento140rojo').connections({to:'#conocimiento141rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento141rojo').connections({to:'#conocimiento142rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento142rojo').connections({to:'#conocimiento143rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento143rojo').connections({to:'#conocimiento144rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //53
+    $('#conocimiento145rojo').connections({to:'#conocimiento146rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento146rojo').connections({to:'#conocimiento147rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //54
+    $('#conocimiento148rojo').connections({to:'#conocimiento149rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //57
+    $('#conocimiento152rojo').connections({to:'#conocimiento153rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //58
+    $('#conocimiento154rojo').connections({to:'#conocimiento155rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //59
+    $('#conocimiento156rojo').connections({to:'#conocimiento157rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //60
+    $('#conocimiento158rojo').connections({to:'#conocimiento159rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento159rojo').connections({to:'#conocimiento160rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento160rojo').connections({to:'#conocimiento161rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento161rojo').connections({to:'#conocimiento162rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //63
+    $('#conocimiento165rojo').connections({to:'#conocimiento166rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //64
+    $('#conocimiento167rojo').connections({to:'#conocimiento168rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento168rojo').connections({to:'#conocimiento169rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //67
+    $('#conocimiento172rojo').connections({to:'#conocimiento173rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento173rojo').connections({to:'#conocimiento174rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    //69
+    $('#conocimiento176rojo').connections({to:'#conocimiento177rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento177rojo').connections({to:'#conocimiento178rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento178rojo').connections({to:'#conocimiento179rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento179rojo').connections({to:'#conocimiento180rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
+    $('#conocimiento180rojo').connections({to:'#conocimiento181rojo','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#d22136'}});
     
 		var connections = $('connection, inner');
 		setInterval(function() { connections.connections('update') }, 100);
