@@ -623,14 +623,7 @@ $arrayConocimientosFinal = array();
 
   </div>
 
-<div class="container">
-    <div id="primero">
-      primero
-    </div>
-    <div id="termino">
-    fin
-    </div>
-  </div>
+
 
 
 
