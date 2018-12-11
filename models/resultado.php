@@ -629,7 +629,7 @@ $arrayConocimientosFinal = array();
 
   <script type="text/javascript">
 
-$(document).ready(function(){
+$(function(){
   $('.ocultar1').css('display','none');
   $('.ocultar2').css('display','none');
   $('.ocultar3').css('display','none');
@@ -1407,8 +1407,7 @@ $(".estilo-button").click(function () {
   var id = $(this).data('id');
   //alert(id);
 		$('.ocultar'+id).toggle(); 
-    var connections = $('connection, inner');
-		connections.connections('update');
+   
 }); 
 </script>
 
