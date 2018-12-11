@@ -41,14 +41,14 @@ class generalQuery extends ConexionBD
 		return $call;
 	}
 	public function obtenerConocimientos(){
-		$queryConocimientos = 'CALL sp_ObtenerConocimientos(1)';
+		$queryConocimientos = 'SELECT experiencia.experiencia_nombre,conocimientos.conocimiento_nombre,experiencia_conocimiento.puntaje FROM experiencia_conocimiento,experiencia,conocimientos WHERE experiencia_conocimiento.funcion_id = 1 AND experiencia.id = experiencia_conocimiento.experiencia_id AND experiencia_conocimiento.conocimientos_id = conocimientos.id';
 		$result = $this->conectBD()->prepare($queryConocimientos);
 		$result->execute();
 		$call = $result->fetchall();
 		return $call;
 	}
 	public function obtenerConocimientospuntaje($id){
-		$queryConocimientos = 'CALL sp_ObtenerPuntajeConocimiento('.$id.')';
+		$queryConocimientos = 'SELECT experiencia.experiencia_nombre,conocimientos.conocimiento_nombre,experiencia_conocimiento.puntaje FROM experiencia_conocimiento,experiencia,conocimientos WHERE experiencia_conocimiento.funcion_id = '.$id.' AND experiencia.id = experiencia_conocimiento.experiencia_id AND experiencia_conocimiento.conocimientos_id = conocimientos.id';
 		$result = $this->conectBD()->prepare($queryConocimientos);
 		$result->execute();
 		$call = $result->fetchall();
