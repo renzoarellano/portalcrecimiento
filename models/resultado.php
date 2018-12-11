@@ -1400,7 +1400,7 @@ $('#conocimiento179azul').connections({to:'#conocimiento180azul','class':'first'
 $('#conocimiento180azul').connections({to:'#conocimiento181azul','class':'first', tag: 'inner', css: { borderWidth: 1.2,color: '#068fc4'}});
 
 var connections = $('connection, inner');
-setInterval(function() { connections.connections('update') }, 0);
+setInterval(function() { connections.connections('update') }, 0.1);
 });
 
 $(".estilo-button").click(function () { 
