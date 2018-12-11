@@ -54,6 +54,8 @@ class generalQuery extends ConexionBD
 		$call = $result->fetchall();
 		return $call;
 	}
+
+	//Cambio con GitKraken
 }
 
 
