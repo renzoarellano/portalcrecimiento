@@ -4,14 +4,15 @@ error_reporting(E_ALL ^ E_NOTICE);
 define("SLASH", "/");
 define("SLASH_SUP", "../");
 
+//mysql://b28d9ca4a43096:7fa2b6f2@us-cdbr-iron-east-01.cleardb.net/heroku_0abc0e21d37e5bf?reconnect=true
 // DATOS DE CONEXIÓN A BD
-define('HOST', 'localhost');
-define('DATA_BASE', 'portalcrecimiento');
+define('HOST', 'us-cdbr-iron-east-01.cleardb.net');
+define('DATA_BASE', 'heroku_0abc0e21d37e5bf');
 //define('DATA_BASE', 'eigbitco_portalcrecimiento');
 /*define('USER_DB', 'eigbitco_portal');
 define('PASS_DB', 'M@:v3r!cK');*/
-define('USER_DB', 'root');
-define('PASS_DB', 'root');
+define('USER_DB', 'b28d9ca4a43096');
+define('PASS_DB', '7fa2b6f2');
 
 $path = array(
     "controllers" => "controllers" . SLASH,
