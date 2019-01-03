@@ -126,8 +126,8 @@ $conocimientos = $resultado->obtenerConocimientos();
   <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-7 text-center espacio-cambio np">
   <div class="col-xs-12 text-center">
   <img class="" src="app/img/artefinal.png" alt="">
-  <div class="col-xs-12 estilo-table np">
-      <table class="table table-bordered col-xs-12 np">
+  <div class="col-xs-12 estilo-table table-responsive np">
+      <table class="table col-xs-12 np">
         <thead class="col-xs-12">
           <div class="col-xs-12 np table-head">
             <div class="col-xs-2 text-center text-leyenda">

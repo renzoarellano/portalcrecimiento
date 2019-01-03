@@ -488,6 +488,9 @@ border-right: 1px solid #ddd;
   background-color: #d22136;
   margin-right: 5px;
 }
+.table-responsive > .table > tbody > tr > th{
+      white-space: normal !important;
+}
 
 .circulo-numverde{
   border-radius: 50px;
