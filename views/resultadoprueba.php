@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require_once 'models/general.class.php';
 $resultado = new generalQuery();
@@ -33,7 +33,7 @@ $conocimientos = $resultado->obtenerConocimientos();
   //echo $countMaqueta;
   //print_r($arrayMaqueta[$m]['conocimientos']);
 
-  
+
   $btnMostrar = 1;
   foreach($arrayMaqueta as $datos)
   {
@@ -68,9 +68,9 @@ $conocimientos = $resultado->obtenerConocimientos();
     unset($estructuraConocimiento);
     $btnMostrar++;
   }
-  
 
- /* 
+
+ /*
         $estructuraConocimiento = '
         <tr class="ocultar2 col-xs-12">
         <th class="estilocono">'.$arrayMaqueta[$m]['conocimientos'].'</th>
@@ -81,7 +81,7 @@ $conocimientos = $resultado->obtenerConocimientos();
         <th class="num-experiencia text-center">5</th>
         </tr>
         ';*/
-      
+
 
   //echo $estructuraConocimiento;
   //Array de Ejemplo
@@ -101,7 +101,7 @@ $conocimientos = $resultado->obtenerConocimientos();
             "1"=>"Conocimiento 2",
             "2"=>"Conocimiento 3"
           ),
-        ) 
+        )
   );
 
  //print_r($arrayMaqueta2);
@@ -127,7 +127,7 @@ $conocimientos = $resultado->obtenerConocimientos();
   <div class="col-xs-12 text-center">
   <img class="" src="app/img/artefinal.png" alt="">
   <div class="col-xs-12 estilo-table np">
-      <table class="table col-xs-12 np">
+      <table class="table table-bordered col-xs-12 np">
         <thead class="col-xs-12">
           <div class="col-xs-12 np table-head">
             <div class="col-xs-2 text-center text-leyenda">
@@ -186,11 +186,11 @@ $conocimientos = $resultado->obtenerConocimientos();
               <th class="num-experiencia text-center">5</th>
             </tr>
           </tr-->
-         
-          
+
+
             <?= $estructuraExperiencia; ?>
-           
-          
+
+
         </tbody>
       </table>
   </div>
@@ -226,7 +226,7 @@ $(document).ready(function(){
   $('.ocultar22').css('display','none');
   $('.ocultar23').css('display','none');
   $('.ocultar24').css('display','none');
-  
+
   $('.ocultar25').css('display','none');
   $('.ocultar26').css('display','none');
   $('.ocultar27').css('display','none');
@@ -235,7 +235,7 @@ $(document).ready(function(){
   $('.ocultar30').css('display','none');
   $('.ocultar31').css('display','none');
   $('.ocultar32').css('display','none');
-  
+
   $('.ocultar33').css('display','none');
   $('.ocultar34').css('display','none');
   $('.ocultar35').css('display','none');
@@ -244,7 +244,7 @@ $(document).ready(function(){
   $('.ocultar38').css('display','none');
   $('.ocultar39').css('display','none');
   $('.ocultar40').css('display','none');
-  
+
   $('.ocultar41').css('display','none');
   $('.ocultar42').css('display','none');
   $('.ocultar43').css('display','none');
@@ -253,7 +253,7 @@ $(document).ready(function(){
   $('.ocultar46').css('display','none');
   $('.ocultar47').css('display','none');
   $('.ocultar48').css('display','none');
-  
+
   $('.ocultar49').css('display','none');
   $('.ocultar50').css('display','none');
   $('.ocultar51').css('display','none');
@@ -262,7 +262,7 @@ $(document).ready(function(){
   $('.ocultar54').css('display','none');
   $('.ocultar55').css('display','none');
   $('.ocultar56').css('display','none');
-  
+
   $('.ocultar57').css('display','none');
   $('.ocultar58').css('display','none');
   $('.ocultar59').css('display','none');
@@ -271,22 +271,22 @@ $(document).ready(function(){
   $('.ocultar62').css('display','none');
   $('.ocultar63').css('display','none');
   $('.ocultar64').css('display','none');
-  
+
   $('.ocultar65').css('display','none');
   $('.ocultar66').css('display','none');
   $('.ocultar67').css('display','none');
   $('.ocultar68').css('display','none');
   $('.ocultar69').css('display','none');
 
-  
-  
+
+
 
 });
-$(".estilo-button").click(function () { 
+$(".estilo-button").click(function () {
   var id = $(this).data('id');
   alert(id);
-		$('.ocultar'+id).toggle(); 
-}); 
+		$('.ocultar'+id).toggle();
+});
 
 
 </script>
