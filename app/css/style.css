@@ -205,7 +205,7 @@ padding: 40px 15px 40px 15px;
 }
 .inputpuesto::placeholder{
   color:white;
- 
+
 }
 .color-opcionaltext{
   color: #1f0e12;
@@ -441,7 +441,7 @@ transition:0.4s all;
   color: white;
   height: 60px;
   vertical-align: middle !important;
-  width: 166px;
+  width: 153px;
   border-right: 1px solid white;
 }
 .experiencia-estilo1{
@@ -466,12 +466,12 @@ transition:0.4s all;
 }
 .estilocono{
   text-align: center;
-  width:166px;
+  width:153px;
   vertical-align: middle !important;
   font-size: 11px;
 }
 .num-experiencia{
-width: 165px;
+width: 153px;
 height: 60px;
 vertical-align: middle !important;
 border-top: 1px solid #ddd;
@@ -568,7 +568,7 @@ connection.odd {
 connection.first {
   color: black;
   border: 5px ;
-  
+
 }
 inner {
   border: 4px solid;
