@@ -585,6 +585,9 @@ inner {
 margin-top:0px;
     margin-bottom: 150px;
 }
+.espacio-th{
+  width: 60px;
+}
 .estilo-empezar{
 margin-top:0px;
 }
@@ -593,6 +596,9 @@ margin-top:0px;
 .contenedor-datos{
 margin-top:50px;
     margin-bottom: 80px;
+}
+.espacio-th{
+  width: 153px;
 }
 .estilo-empezar{
 margin-top:50px;

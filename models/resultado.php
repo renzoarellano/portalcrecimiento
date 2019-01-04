@@ -578,11 +578,11 @@ $arrayConocimientosFinal = array();
       <table class="table col-xs-12 np">
         <thead class="col-xs-12">
           <div class="col-xs-12 np table-head">
-            <div class="col-xs-2 text-center text-leyenda">
+            <div class="col-xs-3 text-center text-leyenda">
               LEYENDA:
             </div>
-            <div class="col-xs-7">
-              <div class="col-xs-4 np">
+            <div class="col-xs-9">
+              <div class="col-xs-4 ">
                 <button class="btnresultado-estilo" type="button" name="button">PUESTO ACTUAL</button>
               </div>
               <div class="col-xs-4 np">
@@ -591,18 +591,18 @@ $arrayConocimientosFinal = array();
                   <span class="text-opcs">(CORTO PLAZO)</span>
                 </button>
               </div>
-              <div class="col-xs-4 np">
+              <div class="col-xs-4 ">
                 <button class="btnresultado-estilo3" type="button" name="button">
                   PUESTO DESEADO <br>
                   <span class="text-opcs">(LARGO PLAZO)</span>
                 </button>
               </div>
             </div>
-            <div class="col-xs-offset-1 col-xs-2 ">
+            <!--div class="col-xs-offset-1 col-xs-2 ">
               <button class="btnresultado-estilo4 text-left" type="button" name="button">
                 GUARDAR <br> COMPARACIÓN
               </button>
-            </div>
+            </div-->
           </div>
         </thead>
         <tbody class="col-xs-12">
