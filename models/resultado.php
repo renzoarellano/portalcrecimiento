@@ -50,14 +50,14 @@ if($btnbuscar != null && $btnbuscar != ''){
     for($i = 0; $i < $numPromedio1; $i= $i+1){
         array_push($arrayPromedio1,$promedio1[$i]['promedio_experiencia']);
     }
-    
+
     //print_r($promedioconocimientos1);
     $numPromedioConocimiento1 = count($promedioconocimientos1);
     //echo $numPromedioConocimiento1;
     for($c = 0; $c < $numPromedioConocimiento1; $c= $c+1){
         array_push($arrayPromedioConocimiento1,$promedioconocimientos1[$c]['puntaje']);
     }
-    
+
   }
 
   if($opcion2 != '' && $opcion2 != null){
@@ -106,7 +106,7 @@ if($btnbuscar != null && $btnbuscar != ''){
     for($k = 0; $k < $numPromedio3; $k= $k+1){
         array_push($arrayPromedio3,$promedio3[$k]['promedio_experiencia']);
     }
-    
+
     $numPromedioConocimiento3 = count($promedioconocimientos3);
     for($x = 0; $x < $numPromedioConocimiento3; $x= $x+1){
         array_push($arrayPromedioConocimiento3,$promedioconocimientos3[$x]['puntaje']);
@@ -130,7 +130,7 @@ if($btnbuscar != null && $btnbuscar != ''){
     //echo $idOpcionLimpio;
     $promedioCorto = $resultado->obtener_Promedios($idCortoLimpio);
     $promedioCortoconocimientos = $resultado->obtenerConocimientospuntaje($idCortoLimpio);
-    
+
     //print_r($promedioCorto);
     $numPromedioCorto = count($promedioCorto);
     for($m = 0; $m < $numPromedioCorto; $m= $m+1){
@@ -176,7 +176,7 @@ $arrayConocimientosFinal = array();
   //Arrays con los promedios
   if($promedioVacio2 == 0 && $promedioVacio3 == 0){
     $arrayPromedioFinal = $arrayPromedio1;
-    
+
       //print_r($arrayPromedioFinal);
 
       for($b = 0; $b <180 ; $b = $b +1){
@@ -258,7 +258,7 @@ $arrayConocimientosFinal = array();
     }
   }
 
-   
+
 
 //Sumando 1 para la muestra final de datos.
     for($s = 0 ; $s < 69;$s = $s+1){
@@ -280,7 +280,7 @@ $arrayConocimientosFinal = array();
   for($i = 0 ; $i < 69; $i = $i + 1){
     $contC = 0;
     for($j = 0 ; $j < 180; $j = $j + 1){
-      
+
       if($experiencias[$i]['experiencia_nombre'] == $conocimientos[$j]['experiencia_nombre']){
         $arrayMaqueta[$i]['experiencia'] = $experiencias[$i]['experiencia_nombre'];
         $arrayMaqueta[$i]['conocimientos'][$contC] = $conocimientos[$j]['conocimiento_nombre'];
@@ -293,7 +293,7 @@ $arrayConocimientosFinal = array();
 
   //Numero total de conocimientos
   $countMaqueta = count($arrayMaqueta);
- 
+
 
   //Puntaje de las experiencias
   $lineasExperiencias = array();
@@ -494,7 +494,7 @@ $arrayConocimientosFinal = array();
     array_push($lineasConocimientos,$lineasConocimiento);
   }
 
-  
+
 
   $conocimientos = $resultado->obtenerConocimientos();
 //print_r($experiencias);
@@ -524,7 +524,7 @@ $arrayConocimientosFinal = array();
   //echo $countMaqueta;
   //print_r($arrayMaqueta[$m]['conocimientos']);
 
-  
+
   $btnMostrar = 1;
 
   $mostrarLineas = 0;
@@ -538,11 +538,11 @@ $arrayConocimientosFinal = array();
       <th class="estilocono">'.$conos.'</th>
       '.$lineasConocimientos[$mostrarLineasExperiencia].'
       </tr>
-      ';  
+      ';
       $mostrarLineasExperiencia++;
     }
-    
-   
+
+
     $estructuraExperiencia .= '
     <tr class="col-xs-12">
     <th class="experiencia-estilo2 text-center">
@@ -574,7 +574,7 @@ $arrayConocimientosFinal = array();
 
   <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-7 text-center espacio-cambio np">
   <div class="col-xs-12 text-center">
-  <div class="col-xs-12 estilo-table np">
+  <div class="col-xs-12 estilo-table table-responsive np">
       <table class="table col-xs-12 np">
         <thead class="col-xs-12">
           <div class="col-xs-12 np table-head">
@@ -654,7 +654,7 @@ $(function(){
   $('.ocultar22').css('display','none');
   $('.ocultar23').css('display','none');
   $('.ocultar24').css('display','none');
-  
+
   $('.ocultar25').css('display','none');
   $('.ocultar26').css('display','none');
   $('.ocultar27').css('display','none');
@@ -663,7 +663,7 @@ $(function(){
   $('.ocultar30').css('display','none');
   $('.ocultar31').css('display','none');
   $('.ocultar32').css('display','none');
-  
+
   $('.ocultar33').css('display','none');
   $('.ocultar34').css('display','none');
   $('.ocultar35').css('display','none');
@@ -672,7 +672,7 @@ $(function(){
   $('.ocultar38').css('display','none');
   $('.ocultar39').css('display','none');
   $('.ocultar40').css('display','none');
-  
+
   $('.ocultar41').css('display','none');
   $('.ocultar42').css('display','none');
   $('.ocultar43').css('display','none');
@@ -681,7 +681,7 @@ $(function(){
   $('.ocultar46').css('display','none');
   $('.ocultar47').css('display','none');
   $('.ocultar48').css('display','none');
-  
+
   $('.ocultar49').css('display','none');
   $('.ocultar50').css('display','none');
   $('.ocultar51').css('display','none');
@@ -690,7 +690,7 @@ $(function(){
   $('.ocultar54').css('display','none');
   $('.ocultar55').css('display','none');
   $('.ocultar56').css('display','none');
-  
+
   $('.ocultar57').css('display','none');
   $('.ocultar58').css('display','none');
   $('.ocultar59').css('display','none');
@@ -699,7 +699,7 @@ $(function(){
   $('.ocultar62').css('display','none');
   $('.ocultar63').css('display','none');
   $('.ocultar64').css('display','none');
-  
+
   $('.ocultar65').css('display','none');
   $('.ocultar66').css('display','none');
   $('.ocultar67').css('display','none');
@@ -1403,14 +1403,11 @@ var connections = $('connection, inner');
 setInterval(function() { connections.connections('update') }, 0.1);
 });
 
-$(".estilo-button").click(function () { 
+$(".estilo-button").click(function () {
   var id = $(this).data('id');
   //alert(id);
-		$('.ocultar'+id).toggle(); 
-}); 
+		$('.ocultar'+id).toggle();
+});
 
 
 </script>
-
-
-  
