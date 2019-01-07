@@ -178,7 +178,6 @@ $arrayConocimientosFinal = array();
     $arrayPromedioFinal = $arrayPromedio1;
 
       //print_r($arrayPromedioFinal);
-
       for($b = 0; $b <180 ; $b = $b +1){
         array_push($arrayConocimientosFinal,$arrayPromedioConocimiento1[$b]+1);
       }
@@ -607,12 +606,16 @@ $arrayConocimientosFinal = array();
         </thead>
         <tbody class="col-xs-12">
           <tr class="col-xs-12">
-            <th class="espacio-th text-center">Nivel / <br> Experiencia <br> </th>
-            <th class="espacio-th text-center">No Aplica</th>
-            <th class="espacio-th text-center">Principiante</th>
-            <th class="espacio-th text-center">En Aprendizaje</th>
-            <th class="espacio-th text-center">Competente</th>
-            <th class="espacio-th text-center">Experto</th>
+            <th class="espacio-th text-center">
+              <button type="button" class="estiloCabecerabtn" name="button">
+                Nivel / Experiencia
+              </button>
+            </th>
+            <th class="num-Cabecera text-center">No Aplica</th>
+            <th class="num-Cabecera text-center">Principiante</th>
+            <th class="num-Cabecera text-center">En Aprendizaje</th>
+            <th class="num-Cabecera text-center">Competente</th>
+            <th class="num-Cabecera text-center">Experto</th>
           </tr>
           <?= $estructuraExperiencia; ?>
 

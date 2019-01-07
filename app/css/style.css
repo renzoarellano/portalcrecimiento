@@ -470,12 +470,21 @@ transition:0.4s all;
   vertical-align: middle !important;
   font-size: 11px;
 }
+
 .num-experiencia{
 width: 153px;
 height: 60px;
 vertical-align: middle !important;
 border-top: 1px solid #ddd;
 border-right: 1px solid #ddd;
+}
+
+.num-Cabecera{
+width: 153px;
+vertical-align: middle !important;
+background: black;
+color: white;
+height: 60px;
 }
 
 .circulo-numred{
@@ -579,6 +588,14 @@ inner {
   color: #668;
 }
 
+
+.estiloCabecerabtn{
+  background-color: black;
+  color:white;
+  cursor: none;
+  font-size: 14px;
+
+}
 
 @media (min-width: 320px) {
 .contenedor-datos{
