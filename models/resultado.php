@@ -611,11 +611,24 @@ $arrayConocimientosFinal = array();
                 Nivel / Experiencia
               </button>
             </th>
-            <th class="num-Cabecera text-center">No Aplica</th>
-            <th class="num-Cabecera text-center">Principiante</th>
-            <th class="num-Cabecera text-center">En Aprendizaje</th>
-            <th class="num-Cabecera text-center">Competente</th>
-            <th class="num-Cabecera text-center">Experto</th>
+            <th class="num-Cabecera text-center">
+              <button type="button" class="estiloCabecerabtn" name="button">
+                No Aplica
+              </button>
+            </th>
+            <th class="num-Cabecera text-center">
+              <button type="button" class="estiloCabecerabtn" name="button">
+              Principiante
+            </button></th>
+            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn" name="button">
+              En Aprendizaje
+            </button></th>
+            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn" name="button">
+              Competente
+            </button></th>
+            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn" name="button">
+              Experto
+            </button></th>
           </tr>
           <?= $estructuraExperiencia; ?>
 

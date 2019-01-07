@@ -591,10 +591,11 @@ inner {
 
 .estiloCabecerabtn{
   background-color: black;
-  color:white;
-  cursor: none;
-  font-size: 14px;
-
+    color: white;
+    cursor: none;
+    font-size: 14px;
+    border: 0;
+    width: 136px;
 }
 
 @media (min-width: 320px) {
