@@ -605,6 +605,15 @@ margin-top:0px;
     width: 137px;
 }
 
+.estiloCabecerabtn2{
+  background-color: black;
+    color: white;
+    cursor: none;
+    font-size: 14px;
+    border: 0;
+    width: 90px;
+}
+
 .num-experiencia{
 width: 100px;
 height: 60px;
