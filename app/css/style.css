@@ -471,13 +471,7 @@ transition:0.4s all;
   font-size: 11px;
 }
 
-.num-experiencia{
-width: 153px;
-height: 60px;
-vertical-align: middle !important;
-border-top: 1px solid #ddd;
-border-right: 1px solid #ddd;
-}
+
 
 .num-Cabecera{
 width: 153px;
@@ -485,6 +479,7 @@ vertical-align: middle !important;
 background: black;
 color: white;
 height: 60px;
+border-radius: 1px solid white;
 }
 
 .circulo-numred{
@@ -601,6 +596,22 @@ margin-top:0px;
 .estilo-empezar{
 margin-top:0px;
 }
+.estiloCabecerabtn{
+  background-color: black;
+    color: white;
+    cursor: none;
+    font-size: 14px;
+    border: 0;
+    width: 137px;
+}
+
+.num-experiencia{
+width: 100px;
+height: 60px;
+vertical-align: middle !important;
+border-top: 1px solid #ddd;
+border-right: 1px solid #ddd;
+}
 }
 @media (min-width: 768px) {
 .contenedor-datos{
@@ -613,15 +624,17 @@ margin-top:50px;
 .estilo-empezar{
 margin-top:50px;
 }
+
+
+
 }
 @media (min-width: 992px){
-  .estiloCabecerabtn{
-    background-color: black;
-      color: white;
-      cursor: none;
-      font-size: 14px;
-      border: 0;
-      width: 85px;
+  .num-experiencia{
+  width: 112px;
+  height: 60px;
+  vertical-align: middle !important;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
   }
 }
 @media (min-width: 1024px){
@@ -633,7 +646,21 @@ margin-top:50px;
       border: 0;
       width: 90px;
   }
+
+  .num-experiencia{
+  width: 153px;
+  height: 60px;
+  vertical-align: middle !important;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  }
 }
+@media (min-width: 1300px){
+
+
+}
+
+
 @media (min-width: 1400px){
   .estiloCabecerabtn2{
     background-color: black;
@@ -642,6 +669,14 @@ margin-top:50px;
       font-size: 14px;
       border: 0;
       width: 105px;
+  }
+
+  .num-experiencia{
+  width: 153px;
+  height: 60px;
+  vertical-align: middle !important;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
   }
 }
 

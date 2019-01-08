@@ -571,7 +571,7 @@ $arrayConocimientosFinal = array();
 <input type="hidden" name="largoplazo" value="<?= $largoplazo; ?>">
 </div>
 
-  <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-7 text-center espacio-cambio np">
+  <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-center espacio-cambio np">
   <div class="col-xs-12 text-center">
   <div class="col-xs-12 estilo-table table-responsive np">
       <table class="table col-xs-12 np">
