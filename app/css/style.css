@@ -589,14 +589,6 @@ inner {
 }
 
 
-.estiloCabecerabtn{
-  background-color: black;
-    color: white;
-    cursor: none;
-    font-size: 14px;
-    border: 0;
-    width: 136px;
-}
 
 @media (min-width: 320px) {
 .contenedor-datos{
@@ -621,4 +613,45 @@ margin-top:50px;
 .estilo-empezar{
 margin-top:50px;
 }
+}
+@media (min-width: 992px){
+  .estiloCabecerabtn{
+    background-color: black;
+      color: white;
+      cursor: none;
+      font-size: 14px;
+      border: 0;
+      width: 85px;
+  }
+}
+@media (min-width: 1024px){
+  .estiloCabecerabtn2{
+    background-color: black;
+      color: white;
+      cursor: none;
+      font-size: 14px;
+      border: 0;
+      width: 90px;
+  }
+}
+@media (min-width: 1400px){
+  .estiloCabecerabtn2{
+    background-color: black;
+      color: white;
+      cursor: none;
+      font-size: 14px;
+      border: 0;
+      width: 105px;
+  }
+}
+
+@media (min-width: 1700px){
+  .estiloCabecerabtn2{
+    background-color: black;
+      color: white;
+      cursor: none;
+      font-size: 14px;
+      border: 0;
+      width: 136px;
+  }
 }

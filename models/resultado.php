@@ -612,21 +612,21 @@ $arrayConocimientosFinal = array();
               </button>
             </th>
             <th class="num-Cabecera text-center">
-              <button type="button" class="estiloCabecerabtn" name="button">
+              <button type="button" class="estiloCabecerabtn2" name="button">
                 No Aplica
               </button>
             </th>
             <th class="num-Cabecera text-center">
-              <button type="button" class="estiloCabecerabtn" name="button">
+              <button type="button" class="estiloCabecerabtn2" name="button">
               Principiante
             </button></th>
-            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn" name="button">
+            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn2" name="button">
               En Aprendizaje
             </button></th>
-            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn" name="button">
+            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn2" name="button">
               Competente
             </button></th>
-            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn" name="button">
+            <th class="num-Cabecera text-center"><button type="button" class="estiloCabecerabtn2" name="button">
               Experto
             </button></th>
           </tr>
