@@ -577,20 +577,20 @@ $arrayConocimientosFinal = array();
       <table class="table col-xs-12 np">
         <thead class="col-xs-12">
           <div class="col-xs-12 np table-head">
-            <div class="col-xs-3 text-center text-leyenda">
+            <div class="col-xs-12 col-sm-3 text-center text-leyenda">
               LEYENDA:
             </div>
-            <div class="col-xs-9">
-              <div class="col-xs-4 ">
+            <div class="col-xs-12 col-sm-9">
+              <div class="col-xs-6 col-sm-4 ">
                 <button class="btnresultado-estilo" type="button" name="button">PUESTO ACTUAL</button>
               </div>
-              <div class="col-xs-4 np">
+              <div class="col-xs-5 col-sm-4 np">
                 <button class="btnresultado-estilo2" type="button" name="button">
                   PUESTO DESEADO <br>
                   <span class="text-opcs">(CORTO PLAZO)</span>
                 </button>
               </div>
-              <div class="col-xs-4 ">
+              <div class="col-xs-6 col-sm-4 ">
                 <button class="btnresultado-estilo3" type="button" name="button">
                   PUESTO DESEADO <br>
                   <span class="text-opcs">(LARGO PLAZO)</span>
